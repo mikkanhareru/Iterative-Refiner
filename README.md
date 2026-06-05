@@ -59,3 +59,8 @@ python ase_eval_iterative_refiner.py --split all --v3
 ```
 
 The `--v3` flag activates the current best model version.
+
+## Data availability and licensing
+
+Raw molecular structure files are not included when redistribution is restricted by the original data license.
+Users should obtain the original datasets from their official sources and run the provided preprocessing scripts.
