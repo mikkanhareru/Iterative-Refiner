@@ -4,8 +4,9 @@ This directory contains baseline methods used to compare against the Iterative R
 
 The included baseline workflows are:
 
-- **Simulated annealing (SA)**: train and evaluate the simulated annealing baseline with `ase_sa_update` and `ase_sa_eval`.
-- **Pruned exhaustive search**: run the joint-search baseline with `joint_search`.
+- **Simulated annealing (SA)**: train and evaluate the simulated annealing baseline with `ase_sa_update.py` and `ase_sa_eval.py`.
+- **Pruned exhaustive search**: run the joint-search baseline with `joint_search.py`.
+- **Iterative refiner with static attention**: train and evaluate the iterative refiner with static attention with `ase_train_refiner_v2.py` and `ase_eval_iterative_refiner.py`
 
 ## How to examine the baselines
 
