@@ -19,7 +19,7 @@ First, run `ase_sa_update` to train or update the simulated annealing baseline. 
 python ase_sa_update.py
 ```
 
-If you also like to examine the performance of simulated annealing without using CEP, just set $--beta_cep=0$. For example:
+If you also like to examine the performance of simulated annealing without using CEP, just set `--beta_cep=0`. For example:
 
 ```bash
 python ase_sa_update.py --beta_cep=0
